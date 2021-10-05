@@ -1,0 +1,14 @@
+{
+  "name": "rize-message-proxy",
+  "version": "1.0.0",
+  "description": "Pass through of Rize events to google pub/sub",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "rize-js": "^0.0.9"
+  }
+}
